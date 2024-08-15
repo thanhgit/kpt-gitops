@@ -4,7 +4,6 @@ metadata:
   name: nginx
   namespace: idp-kpt
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app.kubernetes.io/name: nginx
@@ -20,3 +19,4 @@ spec:
         - name: http
           protocol: TCP
           containerPort: 80
+  replicas: 2
