@@ -19,4 +19,4 @@ spec:
         - name: http
           protocol: TCP
           containerPort: 80
-  replicas: 2
+  replicas: 1
